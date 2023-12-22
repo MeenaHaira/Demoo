@@ -1,34 +1,24 @@
 package com.base;
 
-public class C implements A, B {
-
+public class C extends B {
+	
+	
 	@Override
-	public void person3() {
-		System.out.println("Meena");
+	public void hello() {
+	super.hello();
 	}
-
-	@Override
-	public void person4() {
-		System.out.println("Abdul");
-	}
-
-	@Override
-	public void person1() {
-		System.out.println("Vineth");
-	}
-
-	@Override
-	public void person2() {
-		System.out.println("Sandy");
-	}
-
-	public static void main(String[] args) {
-		C ref = new C();
-		ref.person1();
-		ref.person2();
-		ref.person3();
-		ref.person4();
-
-	}
-
-}
+		
+		public static void main(String[] args) {	
+		
+			
+			
+			}}
+	
+		
+		
+		
+								
+	
+	
+	
+	
